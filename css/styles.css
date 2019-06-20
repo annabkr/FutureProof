@@ -1,0 +1,181 @@
+html {
+	box-sizing: border-box;
+	font-size: 1rem;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	font-family: 'Helvetica', sans-serif;
+	margin: 0; 
+}
+
+a {
+	color: #ef233c;
+}
+
+a:focus {
+	outline: none; 
+	border: 1px solid black;
+}
+
+h1, h2 {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 200;  
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+h2 { 
+	font-size: 2.5rem;
+	margin-top: 0;   
+}
+
+h3 {
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: black;
+	margin:0;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.content-wrap {
+	max-width: 950px; 
+	margin: 0 auto; 
+	padding: 60px 50px;	 
+	overflow: auto; 
+} 
+
+.content-wrap-header {
+	max-width: 950px; 
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 60px 50px;	 
+	overflow: auto;
+}
+
+.uppercase {
+	text-transform: uppercase;
+} 
+
+.bold {
+	font-style: bold;
+}
+
+.logo {
+	border-radius: 55%;
+	width: 20vw;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.col-header {
+		width: 100%;
+		float: left;
+		padding-left: 20px; 
+	}
+ 
+ .col-wide {
+		width: 100%;
+		float: left;
+		padding-left: 20px; 
+	}
+
+.scary-robo-img {
+	border-radius: 55%;
+	width: 40vw;
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-narrow {
+	width: 30%;
+	float: left;
+	min-height: 175px;
+}
+
+header { 
+	padding-top: 20px; 
+}
+
+header, footer {
+	background: url(../images/earthislife.jpg) no-repeat fixed;
+	color:#8d99ae;
+} 
+
+header h1, header h2 {
+	color: white;
+	background:black;
+	margin: 0;
+	font-weight:bold;
+}  
+
+h4 {
+	color: #FFFFFF; 
+	margin: 0;
+	font-weight:bold;
+}
+
+footer {
+	text-align: center;
+}
+ 
+ 
+nav {
+	text-align: center;
+	color: #edf2f4;
+	background-size: 100% 100%; 	
+	background: url(../images/earthislife.jpg) no-repeat fixed;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+nav a {
+	display: inline-block;
+	width: 24%;
+	padding: 10px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold; 
+	color: white;
+}
+
+
+h3 ~ p {
+	margin:0;
+} 
+ 
+
+p + h3 {
+	margin-top: 30px;
+}
+
+
+.whatIsUBI {
+	background: #edf2f4; 
+}
+
+.benefits {
+	color: white;
+	background: black; 
+	background-position: center;
+	background-size:cover;
+} 
+
+.form {
+	color:  black;
+	background: grey;    
+	background: url(../images/irobot.jpg) no-repeat fixed;
+	background-position: center; 
+	background-size: cover;
+} 
+ 
